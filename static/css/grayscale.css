@@ -40,7 +40,7 @@ html {
     height: 100%;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -51,6 +51,12 @@ h6 {
     font-family: 'Mrs-Sheppards',cursive, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    color: #4cae4c;
+}
+
+h1 {
+    color: white;
+    font-family: 'Mrs-Sheppards',cursive, sans-serif;
 }
 
 p {
@@ -177,6 +183,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 .intro .intro-body {
@@ -185,11 +192,14 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 50px;
+    color: #4cae4c;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 24px;
+    color: #4cae4c;
+    font-weight: bolder;
 }
 
 @media(min-width:768px) {
